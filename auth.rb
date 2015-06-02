@@ -22,7 +22,7 @@ class TVSchedule < Sinatra::Base
       session[:user] = user.token
 
       flash[:success] = 'You have successfully logged in!'
-      redirect url('/admin')
+      redirect url('/user')
     end
   end
 
@@ -49,7 +49,7 @@ class TVSchedule < Sinatra::Base
       if current_user
         return true
       else
-        redirect '/login'
+        redirect '/'
         return false
       end
     end
@@ -58,7 +58,7 @@ class TVSchedule < Sinatra::Base
       if is_admin?
         return true
       else
-        redirect '/login'
+        redirect '/'
         return false
       end
     end

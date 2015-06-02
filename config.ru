@@ -8,7 +8,7 @@ require 'date'
 require './app.rb'
 
 # Auth Routes
-ADMIN_USERS = %w( ndewey@westport.k12.ct.us ad46363@students.westport.k12.ct.us ps47366@students.westport.k12.ct.us ascheetz@westport.k12.ct.us jphoneycutt@westport.k12.ct.us )
+ADMIN_USERS = %w( ndewey@westport.k12.ct.us ad46363@students.westport.k12.ct.us ls49540@students.westport.k12.ct.us ps47366@students.westport.k12.ct.us ascheetz@westport.k12.ct.us jphoneycutt@westport.k12.ct.us )
 require './auth.rb'
 
 # Routes

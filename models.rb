@@ -89,6 +89,23 @@ class User
   property :email, String, :required => true, :unique => true, :format => /^([a-z]{2}\d{5,7}@students.|[a-z]{3,}@)westport.k12.ct.us$/
   property :token, String
   property :created_at, EpochTime
+  property :admin, Boolean, :default => false
+  property :class1, String
+  property :class2, String
+  property :class3, String
+  property :class4, String
+  property :class5, String
+  property :class6, String
+  property :class7, String
+  property :class8, String
+  property :classType1, Integer, :default => 0
+  property :classType2, Integer, :default => 0
+  property :classType3, Integer, :default => 0
+  property :classType4, Integer, :default => 0
+  property :classType5, Integer, :default => 0
+  property :classType6, Integer, :default => 0
+  property :classType7, Integer, :default => 0
+  property :classType8, Integer, :default => 0
 
 
   before :create do

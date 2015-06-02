@@ -17,8 +17,8 @@ group :development do
 	gem 'thin'
 end
 
-group :production do
-	gem 'pg'
-	gem 'dm-postgres-adapter'
-	gem 'passenger', '~> 4.0.53'
-end
+# group :production do
+# 	gem 'pg'
+# 	gem 'dm-postgres-adapter'
+# 	gem 'passenger', '~> 4.0.53'
+# end
